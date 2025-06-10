@@ -17,25 +17,26 @@ The project shows how to:
 ---
 
 ## Repo Layout (abridged)
-
+```text
 fraud_detection_pipeline/
-├── app/
-│   └── streamlit_app.py        # interactive dashboard
-├── artifacts/                  # run-time models & encoders
+├── app/                  # Streamlit dashboard
+│   └── streamlit_app.py
+├── artifacts/            # run-time models & encoders
 │   ├── config.yaml
 │   └── models/{iso,gmm,ae,…}
 ├── data/
-│   ├── raw/                    # original Kaggle CSVs  (git-ignored)
-│   ├── interim/                # joined parquet
-│   └── processed/              # cleaned parquet
+│   ├── raw/              # original Kaggle CSVs (git-ignored)
+│   ├── interim/          # joined parquet
+│   └── processed/        # cleaned parquet
+├── scripts/              # helpers
 ├── src/
-│   ├── cli.py                  # python -m cli train|infer
-│   └── fraud_unsup/            # importable package
-│       ├── etl/                # join & clean
-│       ├── features/           # encoders / scalers
-│       ├── models/             # IF, GMM, AE wrappers
-│       └── pipelines/          # train.py, infer.py
-└── scored.csv                  # sample scored output
+│   ├── cli.py            # python -m cli train|infer
+│   └── fraud_unsup/      # importable package
+│       ├── etl/          # join & clean
+│       ├── features/     # encoders / scalers
+│       ├── models/       # IF, GMM, AE wrappers
+│       └── pipelines/    # train.py, infer.py
+└── scored.csv            # sample scored output
 
 ---
 
