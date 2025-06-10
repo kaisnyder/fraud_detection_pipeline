@@ -38,7 +38,7 @@ fraud_detection_pipeline/
 │       └── pipelines/    # train.py, infer.py
 └── scored.csv            # sample scored output
 
----
+```
 
 ````
 ## Quick-Start
