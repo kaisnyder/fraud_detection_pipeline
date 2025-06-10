@@ -62,7 +62,7 @@ mlflow ui &                     # http://127.0.0.1:5000
 python -m fraud_unsup.pipelines.infer data/processed/train.parquet --out_csv scored.csv
 
 # 5) launch Streamlit dashboard
-streamlit run app/streamlit_app.py
+streamlit run app/streamlit_app.py 
 ````
 
 ### What you should see
