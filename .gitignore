@@ -1,0 +1,23 @@
+# --- Python -------------------------------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.venv/
+.env
+
+# --- Data & artifacts --------------------------------------
+data/
+mlruns/
+artifacts/
+*.parquet
+*.csv
+
+# --- Notebooks ---------------------------------------------
+.ipynb_checkpoints/
+
+# --- Environment / IDE -------------------------------------
+.vscode/
+.idea/
+.DS_Store
+*.log
