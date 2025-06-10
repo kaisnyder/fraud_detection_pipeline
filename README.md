@@ -75,10 +75,10 @@ streamlit run app/streamlit_app.py
 | **Streamlit** | `localhost:8501` | Precision-vs-k curves (IF / AE / GMM / Ensemble), precision table, **Lift over Random @ 1 %** |
 
 MLflow Output Example:
-![alt text](image.png)
+![alt text](image-1.png)
 
 Streamlit Output Example:
-![alt text](image-1.png)
+![alt text](image.png)
 
 ---
 
