@@ -8,7 +8,7 @@ The project shows how to:
 * Train three unsupervised detectors  
   * Isolation Forest  
   * Gaussian Mixture Model  
-  * Auto Encoder (PyTorch)
+  * Autoencoder (PyTorch)
 * Grid-search ensemble weights to maximise **Precision @ 1 %**
 * Track everything in **MLflow**
 * Explore results with a **Streamlit dashboard** (precision-vs-k curves, precision table, lift metric)
