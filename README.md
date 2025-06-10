@@ -37,12 +37,13 @@ fraud_detection_pipeline/
 │       ├── models/       # IF, GMM, AE wrappers
 │       └── pipelines/    # train.py, infer.py
 └── scored.csv            # sample scored output
-
 ```
 
-````
+---
+
 ## Quick-Start
 
+````
 bash
 # 0) clone & create env
 git clone <repo>
